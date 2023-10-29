@@ -9,13 +9,12 @@ public class Calculadora {
 	 * @param n2
 	 */
 	public Calculadora(int n1, int n2) {
-		// TODO - implement Calculadora.Calculadora
-		throw new UnsupportedOperationException();
+		this.n1 = n1;
+		this.n2 = n2;
 	}
 
 	public int sumar() {
-		// TODO - implement Calculadora.sumar
-		throw new UnsupportedOperationException();
+		return this.n1 + this.n2;
 	}
 
 }
