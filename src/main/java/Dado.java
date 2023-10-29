@@ -1,15 +1,16 @@
+import java.util.Random;
+
 public class Dado {
 
 	private int[] caras;
 
 	public int lanzarDado() {
-		// TODO - implement Dado.lanzarDado
-		throw new UnsupportedOperationException();
+		int index = new Random().nextInt(this.caras.length);
+		return this.caras[index];
 	}
 
 	public Dado() {
-		// TODO - implement Dado.Dado
-		throw new UnsupportedOperationException();
+		this.caras = new int[]{1, 2, 3, 4, 5, 6};
 	}
 
 }
